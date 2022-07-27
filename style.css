@@ -32,4 +32,28 @@ ol {
   font-weight: bold;
   color: #f2b376;
 }
+
+ol h2 {
+  margin-bottom: 10px;
+}
+
+ol h2::after {
+  content: ":";
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: solid 2px #f2b376;
+  color: #f2b376;
+  font-family: 'Square Peg', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: -25px;
+  margin-top: 20px;
+}
 /*# sourceMappingURL=style.css.map */
