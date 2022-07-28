@@ -3,13 +3,18 @@ const content = shuffle([
   ["Wie man 9 Stunden schläft", "Einschlafen", "9 Stunden später aufwachen"],
   [
     "Wie man keine Panik hat",
-    "Realisieren, dass fast alles im Leben im großen und ganzen meaningless ist, und dadurch die Insignifikanz der aktuellen Situation begreifen",
+    "Realisieren, dass fast alles im Leben im Großen und Ganzen meaningless ist, und dadurch die Insignifikanz der aktuellen Situation begreifen",
     "Keine Panik mehr",
   ],
   [
     "Wie man gute Guides schreibt",
     "Den ersten Schritt scheiben",
     "Den zweiten Schritt schreiben",
+  ],
+  [
+    "Wie man hübsche Ornamentbilder bekommt",
+    "Joanne darum bitten welche zu zeichnen",
+    "Danke sagen :)",
   ],
 ]);
 document.addEventListener("DOMContentLoaded", next);
