@@ -27,6 +27,22 @@ const content = [
     "Fenster auf, Tür zu",
     "Warten bis der Käfer das Zimmer selbständig verlassen hat",
   ],
+  [
+    "Wie man an Halloween keine Süßigkeiten bekommt",
+    "Sich nicht verkleiden",
+    "Zuhause bleiben",
+  ],
+  [
+    "Wie man pünktlich aus dem Bett kommt",
+    "Im Bett liegen",
+    "Rechtzeitig aufstehen",
+  ],
+  ["Wie man reich wird", "Viel Geld verdienen", "Weniger Geld ausgeben"],
+  [
+    "Wie man einen Marathon läuft",
+    "Laufen",
+    "Nach 42.195 Metern aufhören zu laufen",
+  ],
 ];
 
 let currentElement = null;
@@ -95,7 +111,7 @@ function next() {
     renderItem(item);
   } else {
     document.getElementById("title").innerHTML =
-      "Das waren alle Guides, du solltest jetzt bestens auf alle Hindernisse die das Leben dir in den Weg stellt vorbereitet sein.";
+      "Das waren alle Guides, du solltest jetzt bestens auf alle Hindernisse, die das Leben dir in den Weg stellt, vorbereitet sein.";
     document.getElementById("title").toggleAttribute("out-of-guides", true);
     document.getElementById("step-1").style.display = "none";
     document.getElementById("step-2").style.display = "none";
