@@ -43,6 +43,7 @@ const content = [
     "Laufen",
     "Nach 42.195 Metern aufhören zu laufen",
   ],
+  ["Wie man richtig reitet", "Nicht vom Pferd fallen", "Reiten"],
 ];
 
 let currentElement = null;
@@ -104,10 +105,11 @@ function exitEffect(id) {
 function next() {
   if (content.length > 0) {
     let item = shuffledContent.pop();
+    /*
     if (item[3] == 5) {
       next();
       return;
-    }
+    }*/
     renderItem(item);
   } else {
     document.getElementById("title").innerHTML =
